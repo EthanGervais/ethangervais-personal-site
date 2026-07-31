@@ -2,8 +2,8 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
-  background: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(127, 129, 151, 0.2);
+  background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(16px);
 }
 
@@ -20,13 +20,13 @@
   font-size: 1.125rem;
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #0f172a;
+  color: var(--text);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .brand:hover {
-  color: #4f46e5;
+  color: var(--primary);
 }
 
 .links {
@@ -46,14 +46,14 @@
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
   font-weight: 500;
-  color: #475569;
+  color: rgba(7, 7, 8, 0.72);
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
 .link:hover {
-  background: #f1f5f9;
-  color: #0f172a;
+  background: rgba(127, 129, 151, 0.12);
+  color: var(--primary);
 }
 
 @media (min-width: 640px) {

@@ -1,0 +1,84 @@
+.experience {
+  display: grid;
+  gap: 1rem;
+}
+
+.entry {
+  border-radius: 1.25rem;
+  border: 1px solid rgba(91, 97, 120, 0.18);
+  background: rgba(255, 255, 255, 0.74);
+  padding: 1.25rem;
+  box-shadow: 0 10px 30px -20px rgba(18, 20, 27, 0.16);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.companyBlock {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.company {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.location {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(18, 20, 27, 0.7);
+}
+
+.date {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.role {
+  margin: 0 0 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(18, 20, 27, 0.8);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.list li {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(18, 20, 27, 0.72);
+}
+
+.list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .entry {
+    padding: 1.5rem;
+  }
+}

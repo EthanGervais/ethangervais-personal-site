@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css';
 
-const links = ['About', 'Skills'];
+const links = ['About', 'Experience', 'Skills'];
 
 export default function Navbar() {
   return (

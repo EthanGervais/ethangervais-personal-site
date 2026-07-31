@@ -4,10 +4,10 @@
 
 .card {
   border-radius: 1.5rem;
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(127, 129, 151, 0.2);
+  background: rgba(255, 255, 255, 0.72);
   padding: 2rem;
-  box-shadow: 0 20px 60px -24px rgba(15, 23, 42, 0.35);
+  box-shadow: 0 20px 60px -24px rgba(7, 7, 8, 0.18);
   backdrop-filter: blur(16px);
 }
 
@@ -24,7 +24,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #0f172a;
+  color: var(--text);
 }
 
 .divider {
@@ -32,7 +32,7 @@
   height: 0.5rem;
   width: 6rem;
   border-radius: 999px;
-  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
 }
 
 @media (min-width: 640px) {

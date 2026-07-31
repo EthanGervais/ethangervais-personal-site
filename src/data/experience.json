@@ -1,0 +1,20 @@
+{
+  "experience": [
+    {
+      "company": "Co-operators",
+      "title": "Site Reliability Specialist",
+      "startDate": "Nov 2021",
+      "endDate": null,
+      "location": "Guelph, ON",
+      "responsibilities": [
+        "Design, write, read, test, and correct code for new software",
+        "Provide day-to-day support for production systems and applications",
+        "Troubleshoot and resolve technical problems in a timely manner",
+        "Maintain accurate documentation of systems, processes, and incidents",
+        "Provide status reports and escalate issues when necessary to lead resource",
+        "Collaborate with other IT teams to identify and resolve cross-functional issues",
+        "Mentor and provide guidance to junior members of the team"
+      ]
+    }
+  ]
+}

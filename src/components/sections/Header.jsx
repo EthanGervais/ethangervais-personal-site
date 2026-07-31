@@ -5,10 +5,8 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.layout}>
         <div className={styles.content}>
-          <p className={styles.eyebrow}>Site Reliability Specialist</p>
-          <h1 className={styles.title}>
-            Reliable software starts with strong support.
-          </h1>
+          <p className={styles.eyebrow}>At a glance</p>
+          <h1 className={styles.title}>Software Developer</h1>
           <p className={styles.copy}>
             I support critical applications by investigating incidents,
             designing durable fixes, and improving the systems behind them

@@ -3,6 +3,7 @@ import About from './components/sections/About.jsx';
 import Navbar from './components/layouts/Navbar.jsx';
 import Skills from './components/sections/Skills.jsx';
 import styles from './App.module.css';
+import Experience from './components/sections/Experience.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main className={styles.main}>
         <Header />
         <About />
+        <Experience />
         <Skills />
       </main>
     </div>
