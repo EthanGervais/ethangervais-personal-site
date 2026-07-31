@@ -3,10 +3,9 @@ export default function Header() {
     <header className='section-card overflow-hidden'>
       <div className='grid gap-8 lg:grid-cols-[1.4fr_0.8fr] lg:items-center'>
         <div className='space-y-5'>
-          <p className='eyebrow'>Production Support Developer</p>
+          <p className='eyebrow'>Site Reliability Specialist</p>
           <h1 className='max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl'>
-            I solve production issues by combining development, testing, and
-            root cause analysis.
+            Reliable software starts with strong support.
           </h1>
           <p className='max-w-2xl text-lg leading-8 text-slate-600'>
             I support critical applications by investigating incidents,
