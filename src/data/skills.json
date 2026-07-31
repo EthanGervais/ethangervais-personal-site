@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "title": "Core development",
+      "skills": ["Java Development", "SQL Databases", "JavaScript", "HTML/CSS"]
+    },
+    {
+      "title": "Production support",
+      "skills": [
+        "Incident Response",
+        "Root Cause Analysis",
+        "SQL Databases",
+        "Production Troubleshooting",
+        "Reliability Improvements"
+      ]
+    },
+    {
+      "title": "Quality and delivery",
+      "skills": [
+        "Testing and Validation",
+        "Solution Design",
+        "Debugging",
+        "Cross-Team Collaboration"
+      ]
+    }
+  ]
+}
