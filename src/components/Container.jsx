@@ -1,3 +1,5 @@
+import styles from './Container.module.css';
+
 export default function Container({ children }) {
-  return <div className='mx-auto max-w-6xl px-0 sm:px-2'>{children}</div>;
+  return <div className={styles.container}>{children}</div>;
 }

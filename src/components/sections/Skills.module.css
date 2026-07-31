@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  border-radius: 1.25rem;
+  border: 1px solid #e2e8f0;
+  background: rgba(248, 250, 252, 0.8);
+  padding: 1.25rem;
+  box-shadow: 0 10px 30px -20px rgba(15, 23, 42, 0.25);
+}
+
+.title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.list {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #475569;
+}
+
+.item {
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  padding: 0.75rem 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -1,5 +1,6 @@
 import Section from '../layouts/Section.jsx';
 import Container from '../Container.jsx';
+import styles from './Skills.module.css';
 
 const skillGroups = [
   {
@@ -30,21 +31,13 @@ export default function Skills() {
   return (
     <Section id='skills' title='Skills'>
       <Container>
-        <div className='grid gap-4 md:grid-cols-3'>
+        <div className={styles.grid}>
           {skillGroups.map(group => (
-            <div
-              key={group.title}
-              className='rounded-2xl border border-slate-200 bg-slate-50/80 p-5 shadow-sm'
-            >
-              <h3 className='text-base font-semibold text-slate-900'>
-                {group.title}
-              </h3>
-              <ul className='mt-4 space-y-2 text-sm text-slate-600'>
+            <div key={group.title} className={styles.card}>
+              <h3 className={styles.title}>{group.title}</h3>
+              <ul className={styles.list}>
                 {group.skills.map(skill => (
-                  <li
-                    key={skill}
-                    className='rounded-xl border border-slate-200 bg-white px-3 py-2'
-                  >
+                  <li key={skill} className={styles.item}>
                     {skill}
                   </li>
                 ))}

@@ -1,0 +1,48 @@
+.section {
+  scroll-margin-top: 6rem;
+}
+
+.card {
+  border-radius: 1.5rem;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  box-shadow: 0 20px 60px -24px rgba(15, 23, 42, 0.35);
+  backdrop-filter: blur(16px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.divider {
+  display: none;
+  height: 0.5rem;
+  width: 6rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+@media (min-width: 640px) {
+  .divider {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 2.5rem;
+  }
+}

@@ -1,0 +1,42 @@
+.layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.copy {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 2;
+  color: #475569;
+}
+
+.panel {
+  border-radius: 1.25rem;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  padding: 1.5rem;
+}
+
+.list {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: #475569;
+}
+
+.eyebrow {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #4f46e5;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+}
