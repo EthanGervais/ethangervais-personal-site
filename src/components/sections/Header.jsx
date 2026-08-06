@@ -18,7 +18,7 @@ export default function Header() {
               Learn more
             </a>
             <a
-              href='mailto:ethangervais@hotmail.com'
+              href='mailto:mail@ethangervais.com'
               className={styles.secondaryLink}
             >
               Get in touch
