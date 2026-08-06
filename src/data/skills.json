@@ -2,7 +2,12 @@
   "groups": [
     {
       "title": "Core development",
-      "skills": ["Java Development", "SQL Databases", "JavaScript", "HTML/CSS"]
+      "skills": [
+        "Java Development",
+        "SQL Databases",
+        "JavaScript / ReactJS",
+        "Git VCS"
+      ]
     },
     {
       "title": "Production support",
