@@ -9,7 +9,7 @@ export default function Projects() {
         <div className={styles.layout}>
           <div className={styles.card}>
             <p className={styles.eyebrow}>Current focus</p>
-            <h3 className={styles.title}>Personal website</h3>
+            <h3 className={styles.title}>Personal Website</h3>
             <p className={styles.copy}>
               This is my first React project so far, and while it's still a work
               in progress, it marks an important milestone in my React
@@ -37,14 +37,35 @@ export default function Projects() {
             </a>
           </div>
 
-          <div className={styles.cardAlt}>
-            <p className={styles.eyebrow}>What’s next</p>
-            <h3 className={styles.title}>Expanding the portfolio</h3>
+          <div className={styles.card}>
+            <p className={styles.eyebrow}>Discord bot</p>
+            <h3 className={styles.title}>Egg Fella Music Bot</h3>
             <p className={styles.copy}>
-              This section is mostly a placeholder, intentionally structured to
-              grow over time, so that I can easily add new projects as my
-              experience develops.
+              This project is a Discord music bot built with Node.js, discord.js
+              v14, and DisTube. It was created as a way to explore real-time bot
+              development, voice channel integration, and command-driven
+              interactions.
             </p>
+            <p className={styles.copy}>
+              The bot supports music playback through commands like play, skip,
+              queue, shuffle, replace, and push, with support for YouTube and
+              Spotify sources through DisTube plugins.
+            </p>
+            <p className={styles.copy}>
+              I used this project to strengthen my understanding of asynchronous
+              event handling, queue management, and working with third-party
+              APIs. Development began in 2023 and was paused in 2025 as
+              Discord's changing platform support made this kind of bot less
+              practical to maintain.
+            </p>
+            <a
+              className={styles.link}
+              href='https://github.com/EthanGervais/Egg-Fella-Bot'
+              target='_blank'
+              rel='noreferrer'
+            >
+              View the repository on GitHub
+            </a>
           </div>
         </div>
       </Container>
