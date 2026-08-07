@@ -67,6 +67,35 @@ export default function Projects() {
               View the repository on GitHub
             </a>
           </div>
+          <div className={styles.card}>
+            <p className={styles.eyebrow}>Minecraft plugin</p>
+            <h3 className={styles.title}>Monsters vs Kingsmen</h3>
+            <p className={styles.copy}>
+              A Java-based Spigot plugin for Minecraft 1.16.5 that turns a
+              server lobby into a class-based roleplaying battle game with
+              dragons, custom player classes, and automated world generation.
+            </p>
+            <p className={styles.copy}>
+              The plugin uses the Bukkit/Spigot API to manage commands, events,
+              player abilities, and match state. It was developed as a larger
+              multiplayer project from around October 2020, with active
+              development until May 2021.
+            </p>
+            <p className={styles.copy}>
+              Players choose classes from custom spawn eggs, fight a
+              player-controlled dragon, then return as monsters if they die. It
+              was built around multiplayer balance, event handling, and custom
+              player abilities.
+            </p>
+            <a
+              className={styles.link}
+              href='https://github.com/EthanGervais/Monsters-vs-Kingsmen'
+              target='_blank'
+              rel='noreferrer'
+            >
+              View the repository on GitHub
+            </a>
+          </div>
         </div>
       </Container>
     </Section>
