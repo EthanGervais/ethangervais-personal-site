@@ -1,3 +1,4 @@
+import headshot from '../../assets/ethan.jpg';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -5,13 +6,22 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.layout}>
         <div className={styles.content}>
-          <p className={styles.eyebrow}>At a glance</p>
-          <h1 className={styles.title}>Software Developer</h1>
-          <p className={styles.copy}>
-            I support critical applications by investigating incidents,
-            designing durable fixes, and improving the systems behind them
-            through thoughtful testing and reliable implementation.
-          </p>
+          <div className={styles.profileIntro}>
+            <img
+              src={headshot}
+              alt='Ethan Gervais'
+              className={styles.headshot}
+            />
+            <div className={styles.profileText}>
+              <p className={styles.eyebrow}>At a glance</p>
+              <h1 className={styles.title}>Software Developer</h1>
+              <p className={styles.copy}>
+                I support critical applications by investigating incidents,
+                designing durable fixes, and improving the systems behind them
+                through thoughtful testing and reliable implementation.
+              </p>
+            </div>
+          </div>
 
           <div className={styles.actions}>
             <a href='#about' className={styles.primaryLink}>
