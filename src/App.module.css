@@ -1,16 +1,16 @@
 .app {
   min-height: 100vh;
   color: var(--text);
-  background: var(--background);
+  background: transparent;
 }
 
 .main {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  max-width: 72rem;
-  padding: 1.5rem 1rem 2.5rem;
+  gap: 3rem;
+  max-width: 74rem;
+  padding: 1.5rem 1rem 3rem;
 }
 
 @media (min-width: 640px) {
